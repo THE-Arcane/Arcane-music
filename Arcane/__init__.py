@@ -1,4 +1,4 @@
-from Arcane.core.bot import ArcaneBot
+from Arcane.core.bot import ArcaneXBot
 from Arcane.core.dir import dirr
 from Arcane.core.git import git
 from Arcane.core.userbot import Userbot
@@ -23,7 +23,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = ArcaneBot()
+app = ArcaneXBot()
 
 # Assistant Client
 userbot = Userbot()
