@@ -1,7 +1,7 @@
-from Arcane.bot import ArcaneBot
-from Arcane.dir import dirr
-from Arcane.git import git
-from Arcane.userbot import Userbot
+from Arcane.core.bot import ArcaneBot
+from Arcane.core.dir import dirr
+from Arcane.core.git import git
+from Arcane.core.userbot import Userbot
 from Arcane.misc import dbb, heroku, sudo
 from aiohttp import ClientSession
 
